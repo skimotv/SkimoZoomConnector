@@ -32,6 +32,8 @@ For each function - summarize step by step how the function works at a user leve
 ## Zoom login using OAuth 2.0
 Must use a registered company/university zoom account
 
+## Retrieving List of User ID's
+Use Get https://api.zoom.us/v2/users/{userId}
 ## Retrieving List of Joined Meetings  
 Use GET 
 ## Retrieve List of Recordings 
