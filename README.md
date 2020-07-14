@@ -33,7 +33,7 @@ For each function - summarize step by step how the function works at a user leve
 Must use a registered company/university zoom account
 
 ## Retrieving List of User ID's
-Use Get https://api.zoom.us/v2/users/{userId} :Produces a list of each individual users ID's that joined the meeting.
+Use Get https://api.zoom.us/v2/users/{userId} : produces a list of each individual users ID's that joined the meeting.
 ## Retrieving List of Joined Meetings  
 Use GET 
 ## Retrieve List of Recordings 
