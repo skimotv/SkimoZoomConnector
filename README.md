@@ -1,49 +1,20 @@
-# Overview
-## SkimoZoomConnector
-This repository has the connector to connect to zoom service provider
+# Skimo Connector Template
+Skimo Connector Template is a template to create connectors to the Skimo Engine
 
-The connector extends the SkimoConnectorTemplate, which utilizes Springboot and Thymeleaf
+#Skimo Newton
+Skimo Newton is a solution developed for the "New Normal" Zoom workplace using the Skimo Engine. Skimo Newton lets you skim any informational video such as webinar, learning or presentation video, enabling them to flip pages in the video, search for text on slides, search for utterances, annotate, highlight and tag the video as though it was an ebook.
 
-(refer to the template README for more info)
+#Skimo Engine
+Skimo Engine is a video summarization and indexing engine, which uses machine learning, computer vision and video processing algorithms to automatically detect points of interest based on the genre of the video, regardless of the language, through the easy-to-use REST API.
 
-The connector uses the Zoom REST API to obtain data.
+#Skimo Newton Connectors
+Skimo Newton has connectors to conference providers such as:
+Skimo Microsoft Teams Connector
+Skimo Zoom Connector
+Skimo Google Meet Connector
+Skimo Cisco Webex Connector
+Skimo Slack Connector
+Skimo Blue Jeans Connector
 
-Visit the [Skimo Website](https://skimo.tv/) to test functionality. 
-
-## Functional Capabilities
-**FULL ELABORATION FOR FUNCTIONS LISTED IN NEXT SECTION**
-
-Allow users to login to Zoom account using OAuth 2.0
-
-Retrieve a list of rooms that the user is a member of
-
-Retrieve a list of items in the selected room's drive 
-
-Retrieve a list of meetings from the items in the drive
-
-Display a list of Zoom meetings on the Skimo website for the user
-
-Allow user to select a recording and upload recording to the Skimo server
-
-# Specific Functions 
-For each function - summarize step by step how the function works at a user level (UI inputs outputs)
-
-                  - summarize the code used to achieve said functionality 
-## Zoom login using OAuth 2.0
-Must use a registered company/university zoom account
-
-## Retrieving List of User ID's
-Use Get https://api.zoom.us/v2/users/{userId} : produces a list of each individual users ID's that joined the meeting.
-## Retrieving List of Joined Meetings  
-Use GET 
-## Retrieve List of Recordings 
-Use GET 
-## Display List of Meetings in Skimo
-
-## Meetings Select and Upload 
-
-# Source
-https://marketplace.zoom.us/docs/guides/getting-started
-
-# Contributing and Support
-We'd love that you contribute to the project. Before doing so, please contact krishnaa.movva@gmail.com for more info. 
+#Authoring connectors
+In order to author any connector to a conference provider use this repository which has the template and then use client integration APIs to integrate with your conference provider.
